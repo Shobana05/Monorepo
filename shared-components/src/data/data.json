@@ -1,0 +1,156 @@
+
+
+{
+    "headerLink": ["Vehicles", "Shop", "Services & Support"],
+    "subHeader":["Shop Parts","Resources"],
+    "bannerFooter":["Save $20 on orders","Free shipping!, that right, Shipping is on us.","Order now and we ll give five"],
+    "CarouselData": [
+      {
+        "img": "/windShield.png",
+        "alt": "Image 1",
+        "className": "w-full h-64 mt-5",
+        "content": "Windshield Wiper Blade-24\",Left",
+        "buttonClass": "custombtn-cls text-xl font-bold text-blue-700 border-2 border-blue-700 px-7 py-2 rounded mx-10 my-5",
+        "buttonValue": "View",
+        "cardClass": "border-2 border-gray-200 mx-10 rounded ",
+        "textClass": "mx-10  text-xl h-56"
+      },
+      {
+        "img": "/discBrake.png",
+        "alt": "Image 2",
+        "className": "w-full h-64 mt-5",
+        "content": "Disc BRake Pad Set. Kit-Front",
+        "buttonClass": "custombtn-cls text-1xl font-bold text-blue-700 border-2 border-blue-700 px-7 py-2 rounded mx-10 my-5",
+        "buttonValue": "View",
+        "cardClass": "border-2 border-gray-200 mx-10 rounded ",
+        "textClass": "mx-10  text-xl  "
+      },
+      {
+        "img": "/sealedBeam.png",
+        "alt": "Image 2",
+        "className": "w-full h-64 mt-5",
+        "content": "Sealed Beam HeadLight-Left, Front(Base,GT)",
+        "buttonClass": "custombtn-cls text-xl font-bold text-blue-700 border-2 border-blue-700 px-7 py-2 rounded mx-10 my-5",
+        "buttonValue": "View",
+        "cardClass": "border-2 border-gray-200 mx-10 rounded ",
+        "textClass": "mx-10 h-32 text-xl"
+      },
+      {
+        "img": "/cabinFilter.png",
+        "alt": "Image 2",
+        "className": "w-full h-64 mt-5",
+        "content": "Cabin Air FIlter. Filter ODOUR and P.",
+        "buttonClass": "custombtn-cls text-1xl font-bold text-blue-700 border-2 border-blue-700 px-7 py-2 rounded mx-10 my-5",
+        "buttonValue": "View",
+        "cardClass": "border-2 border-gray-200 mx-10 rounded ",
+        "textClass": "mx-10 h-32 text-xl"
+      },
+      {
+        "img": "/discBrake.png",
+        "alt": "Image 2",
+        "className": "w-full h-64 mt-5",
+        "content": "Disc BRake Pad Set. Kit-Front",
+        "buttonClass": "custombtn-cls text-1xl font-bold text-blue-700 border-2 border-blue-700 px-7 py-2 rounded mx-10 my-5",
+        "buttonValue": "View",
+        "cardClass": "border-2 border-gray-200 mx-10 rounded ",
+        "textClass": "mx-10 text-xl"
+      }
+    ],
+    "tabData":[
+        {
+            "tabTitle": "Accessories",
+            "tabContent": "Discover amazing products and services",
+            "cardProps": [
+              { "img": "/interiorAccessories.png", "cardClass":"border-2 border-gray-200 mx-10 rounded w-full  ","alt": "Acw-64cessory","className":"w-full  h-64 rounded-t custom-styles-div", "content": "Interior Accessories-Mustang Floor Mats" ,"buttonClass":"custom-btn-cls text-1xl font-bold text-blue-700 border-2 border-blue-700 px-7 py-2 rounded  my-5 custom-btn-style","buttonValue":"view","textClass":"text-xl "},
+              { "img": "/exteriorAccessories.png",  "cardClass":"mx-10 border-2 border-gray-200 rounded w-full","className":"w-full h-64 rounded-t custom-styles-div", "content": "Exterior Accessories-20' Machined-Face Wheel" ,"buttonClass":"custom-btn-cls text-1xl font-bold text-blue-700 border-2 border-blue-700 px-7 py-2 rounded   my-5 custom-btn-style","buttonValue":"view","textClass":"text-xl h-32" },
+              { "img": "/safetyAccessories.png",  "cardClass":"mx-10 border-2 border-gray-200 rounded w-full", "alt": "Accessory 1","className": " w-full h-64 rounded-t custom-styles-div ", "content": "Safety Accessories-Premium Safety Kit" ,"buttonClass":"custom-btn-cls text-1xl font-bold text-blue-700 border-2 border-blue-700 px-7 py-2 rounded   my-5 custom-btn-style","buttonValue":"view","textClass":"text-xl h-32" },
+              { "img": "/otherAccessories.png", "cardClass":"mx-10 border-2 border-gray-200 rounded w-full", "alt": "Accessory 1","className":"w-full  h-64 rounded-t custom-styles-div ", "content": "Other Accessories-Bronco S Cargo Area Mat" ,"buttonClass":"custom-btn-cls text-1xl font-bold text-blue-700 border-2 border-blue-700 px-7 py-2 rounded  my-5 custom-btn-style","buttonValue":"view","textClass":"text-xl h-32" }
+      
+      
+            ]
+          },
+          {
+            "tabTitle": "Maintenance",
+            "tabContent": "Discover amazing products and services",
+          
+            "cardProps": [
+              { "img": "/blackBrakes.png", "cardClass":"border-2 border-gray-200 mx-10 rounded w-full ","alt": "Accessory","className":"w-full  h-64 rounded-t custom-styles-div", "content": "F56DRW- Platinum Black Brakes" ,"buttonClass":"custom-btn-cls text-1xl font-bold text-blue-700 border-2 border-blue-700 px-7 py-2 rounded  my-5 custom-btn-style","buttonValue":"view","textClass":"text-xl h-32"},
+              { "img": "/engineFilter.png", "cardClass":"border-2 border-gray-200 mx-10 rounded w-full ", "alt": "Accessory 1","className":"w-full  h-64 rounded-t custom-styles-div ", "content": "Engine Air Filter" ,"buttonClass":"custom-btn-cls text-1xl font-bold text-blue-700 border-2 border-blue-700 px-7 py-2 rounded   my-5 custom-btn-style","buttonValue":"view","textClass":"text-xl h-32" },
+              { "img": "/fluids.png", "cardClass":"border-2 border-gray-200 mx-10 rounded w-full ", "alt": "Accessory 1","className":"w-full  h-64  rounded-t custom-styles-div", "content": "Fluids, Chemicals & Lubricants" ,"buttonClass":"custom-btn-cls text-1xl font-bold text-blue-700 border-2 border-blue-700 px-7 py-2 rounded   my-5 custom-btn-style","buttonValue":"view","textClass":"text-xl h-32" },
+              { "img": "/wipers.png", "cardClass":"border-2 border-gray-200 mx-10 rounded w-full ", "alt": "Accessory 1","className":"w-full  h-64 rounded-t  custom-styles-div", "content": "Wipers and Washers" ,"buttonClass":"custom-btn-cls text-1xl font-bold text-blue-700 border-2 border-blue-700 px-7 py-2 rounded   my-5 custom-btn-style","buttonValue":"view","textClass":"text-xl h-32" }
+      
+      
+            ]
+          },
+          {
+            "tabTitle": "Power Train",
+            "tabContent": "Discover amazing products and services",
+            "cardProps": [
+              { "img": "/performanceEngine.png", "cardClass":"border-2 border-gray-200 mx-10 rounded w-full","alt": "Accessory","className":"w-full  h-64 rounded-t custom-styles-div", "content": "Ford Performacne-Engine" ,"buttonClass":"custom-btn-cls text-1xl font-bold text-blue-700 border-2 border-blue-700 px-7 py-2 rounded   my-5 custom-btn-style","buttonValue":"view","textClass":"text-xl h-32  "},
+              { "img": "/Transmission.png", "cardClass":"border-2 border-gray-200 mx-10 rounded w-full", "alt": "Accessory 1","className":"w-full  h-64 rounded-t custom-styles-div ", "content": "Transmission" ,"buttonClass":"custom-btn-cls text-1xl font-bold text-blue-700 border-2 border-blue-700 px-7 py-2 rounded   my-5 custom-btn-style","buttonValue":"view","textClass":"text-xl h-32 " },
+              { "img": "/exhaust.png", "cardClass":"border-2 border-gray-200 mx-10 rounded w-full ", "alt": "Accessory 1","className":"w-full  h-64 rounded-t custom-styles-div", "content": "Exhaust" ,"buttonClass":"custom-btn-cls text-1xl font-bold text-blue-700 border-2 border-blue-700 px-7 py-2 rounded   my-5 custom-btn-style","buttonValue":"view","textClass":"text-xl h-32" },
+              { "img": "/suspension.png", "cardClass":"border-2 border-gray-200 mx-10 rounded w-full ", "alt": "Accessory 1","className":"w-full  h-64 rounded-t custom-styles-div", "content": "Suspension" ,"buttonClass":"custom-btn-cls text-1xl font-bold text-blue-700 border-2 border-blue-700 px-7 py-2 rounded   my-5 custom-btn-style","buttonValue":"view","textClass":"text-xl h-32" }
+      
+      
+            ]
+          }
+    ],
+    "explorerData":[
+        {
+          "imgsrc":"icons/battery.png",
+          "alt":"Battery",
+          "text":"Battery"
+        }, {
+          "imgsrc":"icons/transmission.png",
+          "alt":"transmission",
+          "text":"Transmission"
+        },
+        {
+          "imgsrc":"icons/wiper.png",
+          "alt":"Wiper",
+          "text":"Wiper blade"
+        },
+        {
+          "imgsrc":"icons/airfilter.png",
+          "alt":"Air Filter",
+          "text":"Air filter"
+        },
+         
+        {
+          "imgsrc":"icons/brakes.png",
+          "alt":"brakes",
+          "text":"Brakes"
+        },
+        {
+          "imgsrc": "icons/mirror.png",
+                "alt":"Side Mirror",
+          "text":"Side Mirror"
+        }
+       
+        
+      
+      ],
+      "footerInfo": [
+        {
+            "heading":"All vehicles",
+            "links": ["SUVs & Crossovers", "Trucks & Vans", "Cars", "Electrified", "Commercial vehicles", "Future vehicles", "Certicied Used","Fleet Vehicles","All Vehicles","Performance Vehicles"]
+        }, {
+            "heading": "Shopping Tools",
+            "links": ["Build & Price", "Search Inventory", "Get a Quote", "Curent Offers", "Trade-In Value","TOwing Gudies","Compare Vehicles","Get updates","Certified used inventory"]
+        }, {
+            "heading": "Finance",
+            "links": ["Ford Credit Home", "Why Ford Credit", "Finance Options", "Payment calculator", "Credit Education","Customer Support","Qualify for financing","Ford Credit Account","Ford Insure","Ford Interest Advantage","Investor Center"]
+        },
+        {
+            "heading": "Support",
+            "links": ["Support Home", "Maintenace Schedule", "Your warranty", "Coupons & offers", "Redeem Rebates", "SYNC & Technology", "Owner Manuals","Locate a Dealer","Ford Parts","Contact Us","Roadside Assistance","Ford Protect","Recalls","Takata Airbag Recalls","Tire Finder","How-To Videos"]
+        },
+        {
+            "heading": "Experience Ford",
+            "links": ["Corporate", "Careerws", "Investor", "Company News", "About Ford", "Racing", "Accessories Store","Warriors in Pink","Ford Mechandise","Ford Motor Company Fund","SYNC","Connected Navigation","FordPass","Ford Co-Pilot360 Technology","Ford Telematics","Accessibility Program"]
+        }
+    ],
+    "footer": ["2023 Ford Motor Company", "Site Map", "Glossary","Contact Us","Accessibility","Terms & Conditions","Privacy Notice","Cookie Settings","Your Privacy Choices","Interest Based Ads","Third Party Trademarks"]
+      
+  }
+  

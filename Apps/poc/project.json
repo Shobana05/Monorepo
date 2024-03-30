@@ -1,0 +1,57 @@
+{
+  "name": "poc",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "poc",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/next:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/poc"
+      },
+      "configurations": {
+        "development": {
+          "outputPath": "poc"
+        },
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nx/next:server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "poc:build",
+        "dev": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "poc:build:development",
+          "dev": true
+        },
+        "production": {
+          "buildTarget": "poc:build:production",
+          "dev": false
+        }
+      }
+    },
+    "export": {
+      "executor": "@nx/next:export",
+      "options": {
+        "buildTarget": "poc:build:production"
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "poc/jest.config.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  },
+  "tags": []
+}

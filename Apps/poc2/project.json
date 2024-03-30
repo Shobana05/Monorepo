@@ -1,0 +1,57 @@
+{
+  "name": "poc2",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "Apps/poc2",
+  "projectType": "application",
+  "targets": {
+    "build": {
+      "executor": "@nx/next:build",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/Apps/poc2"
+      },
+      "configurations": {
+        "development": {
+          "outputPath": "Apps/poc2"
+        },
+        "production": {}
+      }
+    },
+    "serve": {
+      "executor": "@nx/next:server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "poc2:build",
+        "dev": true
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "poc2:build:development",
+          "dev": true
+        },
+        "production": {
+          "buildTarget": "poc2:build:production",
+          "dev": false
+        }
+      }
+    },
+    "export": {
+      "executor": "@nx/next:export",
+      "options": {
+        "buildTarget": "poc2:build:production"
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "Apps/poc2/jest.config.ts"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    }
+  },
+  "tags": []
+}
